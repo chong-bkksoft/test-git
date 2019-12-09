@@ -1,3 +1,13 @@
 <?php
 
-echo 'Hello World 1234';
+
+
+function a($x, $y)
+{
+    return $x + $y;
+}
+
+
+echo 'Hello World: ',  a(2,3);
+
+
